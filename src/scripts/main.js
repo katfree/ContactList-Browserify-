@@ -1,8 +1,16 @@
-import sayHello from "./hello"
-import sayGoodbye from "./goodbye"
-import SandwichMaker from "./sandwichMaker"
+// In main.js, import the ContactList component and the ContactForm component.
 
-sayHello()
-sayGoodbye()
+// The user should see the contact form at the top of the view, 
+// and the list of contacts underneath it.
 
-SandwichMaker.placeOrder("rye", "capicola", "provolone")
+// Bonus: Are there any other modules that could be made?
+//  Do any modules have more than one possible responsibility?
+//   Perhaps something that is a general utility function.
+
+
+ import CreateContactForm  from "./ContactForm"
+ import CreateContactDOM  from "./ContactCollection"
+
+ CreateContactForm.ContactForm()
+ 
+ CreateContactDOM()

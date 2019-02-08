@@ -1,0 +1,16 @@
+{
+  "ContactList": [
+    {
+      "id": 1,
+      "name": "Meredith Grey",
+      "phoneNumber": "555-555-5555",
+      "address": "Seattle rd, Seattle WA"
+    },
+    {
+      "name": "Katerina Freeman",
+      "phoneNumber": "6153890280",
+      "address": "203 Westchester Dr",
+      "id": 2
+    }
+  ]
+}
